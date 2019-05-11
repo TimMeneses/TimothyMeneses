@@ -1,0 +1,43 @@
+/*COLOR SCHEME
+AQUAMARINE #79ebea
+MIDNIGHT BLUE #4d5072
+GRAY #363636
+DARK BLUE #0B3954
+LIGHT #E1F2FE
+*/
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+/*HEADER-----------------------------------------------------------*/
+header, footer{
+    background:#4d5072;
+}
+
+/*NAVIGATION*/
+body{
+    margin: 0;
+}
+
+nav{
+    width: 100%;
+   text-align: center;
+   background: #E1F2FE;
+
+}
+
+ul{
+    padding-left: 0;
+}
+
+img{
+    width: 50%;
+    margin-left: 25%;
+    border-radius: 50%;
+}
+
