@@ -6,6 +6,10 @@ F1E3F3
 01172F
 */
 
+/*FONTS
+Gochi+Hand|Kaushan+Script|Open+Sans|Nova+Mono
+*/
+
 /*GLOBAL -------------------------------------------------------------*/
 html {
     box-sizing: border-box;
@@ -16,13 +20,13 @@ html {
 }
 
 body{
-    font: 'Open Sans', Sans-serif;
+    font-family: 'Open Sans', Sans-serif;
     margin: 0;
     width: 100%;
 }
 /*HEADER-----------------------------------------------------------*/
 header{
-    background: url(Resources/images/tech3.jpg)fixed;
+    background: url(Resources/images/tech3.jpg) fixed;
     background-position: -135px -120px;
     font-family: 'Nova mono'
 }
@@ -73,7 +77,60 @@ header p {
     font-family: 'Nova Mono';
     font-weight: 400;
     letter-spacing: 1px;
-    padding: 15px;
+    padding: 20px;
     color: #F4E8C1;
+}
 
+/*MAIN-------------------------------------------------*/
+main {
+    padding:20px;
+}
+
+main h2{
+    padding: 10px;
+}
+
+main h3{
+    font-family: nova mono;
+    margin-bottom: 5px;
+    margin-top: 25px
+}
+
+main p{
+    margin-top: 5px;
+}
+/*PROJECT SECTION*/
+#projects ul{
+    list-style: none;
+    color: #89D2DC;
+    font-weight: bold;
+}
+
+#projects ul li{
+    text-align: center;
+    margin: 10px;
+    padding: 60px;
+    background: #343F4B;
+    border-radius: 10px;
+}
+
+
+
+/*FOOTER------------------------------------------------*/
+footer {
+    text-align: center;
+}
+
+footer a {
+    font-size: 30px;
+    color: black;
+    padding: 4px;
+}
+
+footer h2 {
+    margin-bottom: 6px;
+}
+
+footer p{
+    font-size: 10px;
 }
